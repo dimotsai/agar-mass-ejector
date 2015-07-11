@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         agar-mass-ejector
 // @namespace    http://github.com/dimotsai/
-// @version      0.01
+// @version      0.02
 // @description  A faster, continuous mass ejector for agar.
 // @author       dimotsai
 // @license      MIT
@@ -12,12 +12,12 @@
 
 (function() {
     var $ = window.jQuery;
-    var amount = 6;
-    var duration = 50; //ms
 
-    $(window.document).ready(function() {
+    $(window).load(function() {
         var onkeydown = window.onkeydown;
         var onkeyup = window.onkeyup;
+        var amount = 6;
+        var duration = 50; //ms
 
         var overwriting = function(evt) {
             if (evt.keyCode === 69) { // KEY_E
