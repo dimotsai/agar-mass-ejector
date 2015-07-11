@@ -1,4 +1,4 @@
-# agar-mass-ejector
+# [agar-mass-ejector](https://github.com/dimotsai/agar-mass-ejector)
 A faster, continuous mass ejector for agar.
 
 ## Installation
@@ -10,3 +10,7 @@ A faster, continuous mass ejector for agar.
 
 Pressing `E` will eject 6 units of the mass each time. Long pressing will 
 eject mass continuously. `W` remains the original functionality.
+
+## Issues
+
+https://github.com/dimotsai/agar-mass-ejector/issues
